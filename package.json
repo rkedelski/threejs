@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve --config ./src/webpack-dev.js",
+    "prod": "webpack --config ./src/webpack-prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./src/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/rkedelski/threejs/issues"
   },
-  "homepage": "https://github.com/rkedelski/threejs#readme"
+  "homepage": "https://github.com/rkedelski/threejs#readme",
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.10",
+    "@types/three": "^0.153.0",
+    "dat.gui": "^0.7.9",
+    "three": "^0.154.0",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^5.9.0"
+  }
 }
