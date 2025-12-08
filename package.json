@@ -22,7 +22,7 @@
   "homepage": "https://github.com/rkedelski/threejs#readme",
   "devDependencies": {
     "@types/dat.gui": "^0.7.13",
-    "@types/three": "^0.153.0",
+    "@types/three": "^0.181.0",
     "dat.gui": "^0.7.9",
     "three": "^0.181.2",
     "ts-loader": "^9.4.4",
